@@ -1,3 +1,4 @@
+SET search_path = 'ofh';
 CREATE VIEW view_purchase_storage AS
 SELECT 
     p.idPurchase AS purchase_id,
